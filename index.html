@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/app.css" />
+  </head>
+  <body>
+    <div class="container position-relative">
+      <div class="row d-flex flex-column flex-lg-row flex-xl-row ">
+        <div class="col-12 col-lg-7 col-xl-7 ">
+          <div class="logo-container ">
+            <div class="logo">
+              <img
+                src="./base-apparel-coming-soon-master/images/logo.svg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-5 col-xl-5">
+          <div class="image-container">
+            <img
+              src="./base-apparel-coming-soon-master/images/hero-desktop.jpg"
+              alt=""
+              class="hero-desktop"
+            />
+            <img
+              src="./base-apparel-coming-soon-master/images/hero-mobile.jpg"
+              alt=""
+              class="hero-mobile"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row content-box ">
+        <div class="col-12 col-lg-6 col-xl-6  ">
+          <div class="content ">
+            <h1 class="display-1 mb-4">
+              We're <br />
+              <span>coming <br />soon</span>
+            </h1>
+            <p class="mb-4 w-md-75 w-lg-75 w-xl-75">
+              Hello fellow shoppers! We're currently building our new fashion
+              store. Add your email below to stay up-to-date with announcements
+              and our launch deals.
+            </p>
+            <form action="">
+              <div class="input-control position-relative w-md-75 w-lg-75 w-xl-75">
+                <input type="email" class='form-control  ' id="text" placeholder="Email address">
+                <label for="text" class="form-label text-error"></label>
+                <img src="./base-apparel-coming-soon-master/images/icon-error.svg" alt="" class="error-icon">
+                <button type="button " onclick="validate()">
+                  <img src="./base-apparel-coming-soon-master/images/icon-arrow.svg" alt="" class="submit-btn">
+                </button>
+              </div>
+            </form>
+        </div>
+      </div>
+      
+        
+        </div>
+      
+    
+
+    <!-- JS -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>
